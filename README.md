@@ -36,11 +36,11 @@ THEN I should see that another GitHub Action triggers and should automatically d
 
 Your GitHub Actions for tests should look similar to the image below:
 
-![GitHub Actions Cypress Test.](./Assets/19-Actions-Cypress-Tests.png)
+![GitHub Actions Cypress Test.](./Assets/yaml1.png)
 
 Your GitHub Actions for deployments should look similar to the image below:
 
-![GitHub Actions Render Deploy.](./Assets/19-Actions-Render-Deploy.png)
+![GitHub Actions Render Deploy.](./Assets/yaml2.png)
 
 ## Getting Started
 
