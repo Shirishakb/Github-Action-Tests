@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  cypress-tests:
+  render-deploy:
     runs-on: ubuntu-latest
 
     strategy:
@@ -23,4 +23,3 @@ jobs:
 
       - name: Deploy To Render
         run: curl ${{secrets.RENDER_DEPLOY_HOOK_URL}}
-  
